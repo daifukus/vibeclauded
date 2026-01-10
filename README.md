@@ -1,5 +1,5 @@
+![VibeClaude](https://img.shields.io/badge/VibeClaude-by%20DFKlabs-blue?style=for-the-badge)
 # VibeClaude 🎧
-
 Monitor for Claude in Xcode - Get notified when Claude finishes generating.
 
 By **DFKlabs**
