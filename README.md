@@ -3,6 +3,7 @@
 <a href="https://dfklabs.vercel.app" target="_blank"><img src="https://img.shields.io/badge/VibeClaude-by%20DFKlabs-blue?style=for-the-badge" alt="VibeClaude"></a>
 <a href="LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"></a>
 <a href="https://www.apple.com/macos" target="_blank"><img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS"></a>
+![Claude](https://img.shields.io/badge/Claude-Anthropic-orange?style=for-the-badge&logo=data:image/svg+xml;base64,...)
 
 Monitor for Claude in Xcode - Get notified when Claude finishes generating.
 
