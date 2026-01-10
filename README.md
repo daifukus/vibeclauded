@@ -3,7 +3,7 @@
 <a href="https://dfklabs.vercel.app" target="_blank"><img src="https://img.shields.io/badge/VibeClaude-by%20DFKlabs-blue?style=for-the-badge" alt="VibeClaude"></a>
 <a href="LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"></a>
 <a href="https://www.apple.com/macos" target="_blank"><img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS"></a>
-![Claude](https://img.shields.io/badge/Claude-Anthropic-orange?style=for-the-badge&logo=data:image/svg+xml;base64,...)
+![Claude](https://img.shields.io/badge/Claude-Anthropic-orange?style=for-the-badge)
 
 Monitor for Claude in Xcode - Get notified when Claude finishes generating.
 
@@ -17,7 +17,10 @@ Monitor for Claude in Xcode - Get notified when Claude finishes generating.
 
 - 🔔 Sound notification when Claude finishes
 - 🪟 Brings Xcode to foreground automatically
-- 📊 Real-time status display with colors
+- ⌘R **Auto-Run** - Automatically triggers build & run when Claude finishes
+- 📊 Real-time status display with animated spinner
+- 🚀 Auto-opens Xcode if not running
+- ⏱️ 5-minute idle timeout notification
 - ⏸️ Pause/resume monitoring
 - 🪶 Lightweight - sleeps when idle
 
@@ -36,10 +39,19 @@ chmod +x xcode.sh
 
 | Key | Action |
 |-----|--------|
-| `1` | Start monitoring |
+| `1` | Start monitoring (opens Xcode if needed) |
 | `2` | Pause |
 | `3` | Exit |
-| `4` | Test notification |
+| `0` | Toggle Auto-Run (⌘R) |
+
+### Auto-Run Mode
+
+When Auto-Run is **ON** (enabled by default), VibeClaude will automatically:
+1. Play notification sound
+2. Bring Xcode to foreground
+3. Trigger ⌘R to build and run your project
+
+Toggle with `0` to switch between notification-only and auto-run modes.
 
 ## Requirements
 
