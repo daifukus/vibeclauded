@@ -1,4 +1,4 @@
-# VibeClaude 🎧
+# VibeClauded 🎧
 
 <a href="https://dfklabs.vercel.app" target="_blank"><img src="https://img.shields.io/badge/VibeClaude-by%20DFKlabs-blue?style=for-the-badge" alt="VibeClaude"></a>
 <a href="LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"></a>
